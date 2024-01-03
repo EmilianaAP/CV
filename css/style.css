@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: #DBCFB6;
+}
+
+h1 {
+    color: #526543;
+    font-size: 50px;   
+}
+
+p {
+    font-size: large;
+}
+
+#left-column {
+    margin-left: 100px;
+}
+
+#middle-section {
+    background-color: #E0E0E0;
+    border-style: solid;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+}

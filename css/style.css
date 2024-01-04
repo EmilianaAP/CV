@@ -65,3 +65,49 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.dropbtn {
+    background-color:#DBCFB6;
+    border-style: solid;
+    border-color: #526543;
+    color:#526543;
+    padding: 16px;
+    font-size: 16px;
+    width: 160px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DBCFB6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #526543;
+    border-radius: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:#526543;
+    color: #DBCFB6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#526543;
+    color: #DBCFB6;
+}

@@ -9,8 +9,38 @@ h1 {
     font-size: 50px;   
 }
 
+h3 {
+    color: #526543;
+    font-size: 30px;  
+    text-align: center; 
+}
+
 p {
     font-size: large;
+}
+
+a {
+    color: #526543;
+    border-style: solid;
+    border-color: #526543;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: large; 
+    padding: 5px;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #526543;
+    color:#DBCFB6;
+}
+
+img {
+    height: 200px; 
+    width: 200px; 
+    border-style: solid;
+    border-color: #526543;
+    border-radius: 10px;
 }
 
 #left-column {
@@ -23,4 +53,15 @@ p {
     margin-top: 30px;
     height: auto;
     width: 100%;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+#flex-container-column {
+    display: flex;
+    flex-direction: column;
 }
